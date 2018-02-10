@@ -41,3 +41,21 @@ TagManager:
   - name: Default
     uniqueID: 0
     locked: 0
+  - name: Background
+    uniqueID: 4061803391
+    locked: 0
+  - name: Clouds
+    uniqueID: 149889795
+    locked: 0
+  - name: Rod_back
+    uniqueID: 857654611
+    locked: 0
+  - name: Character
+    uniqueID: 1348964099
+    locked: 0
+  - name: Rod_front
+    uniqueID: 945635883
+    locked: 0
+  - name: Front
+    uniqueID: 2901296951
+    locked: 0
