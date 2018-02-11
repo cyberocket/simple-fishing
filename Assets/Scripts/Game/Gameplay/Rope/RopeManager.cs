@@ -59,7 +59,9 @@ namespace Game.Gameplay {
 
         private void FixedUpdate() {
             _length = _length < 1f ? 1f : _length;
+            _mass = _mass < 0.01f ? 0.01f : _mass;
             for (int i = 0; i < _joints.Count; i++) {
+                _joints[i].Mass = _mass / _jointsNumber;
                 _joints[i].Distance = _length / _jointsNumber;
                 _joints[i].Width = _width;
             }
