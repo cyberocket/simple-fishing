@@ -22,6 +22,9 @@ namespace Game.Gameplay {
 
         [SerializeField]
         private Rigidbody2D _body;
+        public Rigidbody2D Body {
+            get { return _body; }
+        }
 
         [SerializeField]
         private SpringJoint2D _joint;
